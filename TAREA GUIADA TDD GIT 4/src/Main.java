@@ -14,7 +14,7 @@ public class Main {
         String numSol = "";
 
         for (int i = 1; i <= n; i++) {
-            numSol = numSol + String.valueOf(i);
+            numSol += i;
         }
 
         System.out.println("El numero es: " + numSol);
