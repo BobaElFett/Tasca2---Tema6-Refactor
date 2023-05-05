@@ -19,6 +19,12 @@ public class Main {
 
         System.out.println("El numero es: " + numSol);
 
+        if (Divisible3.divisible(Long.parseLong(numSol))) {
+            System.out.println("El numero es divisible entre 3");
+        } else {
+            System.out.println("El numero no es divisible entre 3");
+        }
+
         sc.close();
     }
 }
